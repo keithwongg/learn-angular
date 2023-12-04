@@ -12,6 +12,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { CatsComponent } from './cats/cats.component';
+import { BusstopComponent } from './busstop/busstop.component';
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import { CatsComponent } from './cats/cats.component';
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
       { path: 'cats', component: CatsComponent },
+      { path: 'bus-timings', component: BusstopComponent },
     ])
   ],
   declarations: [
@@ -34,7 +36,8 @@ import { CatsComponent } from './cats/cats.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
-    CatsComponent
+    CatsComponent,
+    BusstopComponent
   ],
   bootstrap: [
     AppComponent
