@@ -1,0 +1,28 @@
+:host {
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cat-title {
+    padding-left: 20px;
+}
+
+.cat-container {
+    background-color: aqua;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    flex-wrap: wrap;
+}
+
+.cat-item {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
